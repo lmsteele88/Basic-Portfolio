@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	}
+
+header {
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 0;
+	height: 60px;
+	border-bottom: 1px solid gray;
+
+}
+
+.namebox {
+	background-color: #4aaaa5;
+	height: 60px;
+	width: 20%;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.name {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+	
+ul > li {
+	display: inline;
+}
+
+.pages {
+	color: gray;
+	list-style-type:none;
+	display: inline;
+	float: right;
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+	
+}
+
+
+body {
+	background-image: url("../IMAGES/cork-wallet.png")
+	
+
+}
+
+.AboutMeBox {
+	height: 450px;
+	width: 450px;
+	background: white;
+	float: left;
+	margin: 25px;
+	
+}
+
+.icons {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	
+}
+
+
+#stack-icon {
+	padding: 3px;
+	}
+
+
+
+
+
