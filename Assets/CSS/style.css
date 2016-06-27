@@ -1,30 +1,30 @@
 * {
 	box-sizing: border-box;
-	}
+	}	
 
 header {
 	background-color: #ffffff;
 	margin: 0 auto;
 	padding: 0;
-	height: 60px;
-	border-bottom: 1px solid gray;
+	height: 70px;
+	border-bottom: 2px solid #c0c0c0;
 
 }
 
 .namebox {
 	background-color: #4aaaa5;
-	height: 60px;
-	width: 20%;
+	height: 68px;
+	width: 15%;
 	display: inline-block;
 	margin-left: 60px;
 }
 
 .name {
 	color: white;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
 	padding-top: 20px;
-	
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 	
 ul > li {
@@ -36,39 +36,107 @@ ul > li {
 	list-style-type:none;
 	display: inline;
 	float: right;
-	padding-right: 10px;
+	padding-right: 20px;
 	padding-bottom: 10px;
-
-	
+	font-size: 15px;
+	margin-right: 50px;
+	margin-top: 25px;
+	word-spacing: 20px;
+	width: 33%;
 }
 
+/*#container {
+	height: 100%;
+}
+
+body > #container {
+	height: auto;
+	min-height: 100%;
+}
+
+#content {
+	padding-bottom: 3em;
+}*/
 
 body {
-	background-image: url("../IMAGES/cork-wallet.png")
-	
+	background-image: url("../IMAGES/cork-wallet.png")	
+}
 
+body {
+	margin: 0px;
 }
 
 .AboutMeBox {
 	height: 450px;
-	width: 450px;
+	width: 600px;
 	background: white;
 	float: left;
-	margin: 25px;
+	margin: 50px;
+	margin-left: 125px;
+	padding: 25px;
 	
+}
+
+h1 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+}
+
+.AboutMeBox > h1 > hr {
+	color: #c0c0c0;
+	size: 1px;              /* Not sure how to style line*/
+}
+
+.socialmediabox {
+	height: 250px;
+	width: 300px;
+	background: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding: 25px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font size: 25px;
+	text-align: center;
+}
+
+#iconlinks {
+	text-align: center;
+	padding: 25px;
+	word-spacing: 10px;
 }
 
 .icons {
-	width: 40px;
-	height: 40px;
-	padding: 0;
-	
+	width: 45px;
+	height: 45px;
+	padding: 0;	
 }
 
+footer {
+	background: #666666;
+	padding: 0;
+	height: 70px;
+	border-top: 4px solid #4aaaa5;
+	position: absolute;
+	bottom: 0;
+	clear: both;
+	width: 100%;
+}
 
-#stack-icon {
-	padding: 3px;
-	}
+#footertext {
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding: 25px;
+}
+
 
 
 
