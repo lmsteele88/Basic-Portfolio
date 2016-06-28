@@ -15,10 +15,11 @@ header {
 	width: 100%;
 }
 
+
 .namebox {
 	background-color: #4aaaa5;
 	height: 68px;
-	width: 15%;
+	width: 200px;
 	display: inline-block;
 	margin-left: 60px;
 	float: left;
@@ -54,19 +55,29 @@ body {
 	background-image: url("../IMAGES/cork-wallet.png")	
 }
 
+
 body {
 	margin: 0px;
 
 }
 
+hr {
+	border: 0;
+	width: 100%;
+	color: #dddddd;
+	background-color: #dddddd;
+	height: 2px;
+}
+
 .AboutMeBox {
 	height: 450px;
-	width: 600px;
+	width: 650px;
 	background: white;
 	float: left;
 	margin-top: 50px;
-	margin-left: 50px;
+	margin-left: 20px;
 	padding: 25px;
+	border: 1px solid #dddddd;
 }
 
 h1 {
@@ -84,12 +95,13 @@ p {
 
 .contactbox {           /* Styles contact box on page 2 */
 	height: 500px;
-	width: 600px;
+	width: 650px;
 	background: white;
 	float: left;
 	margin-top: 50px;
-	margin-left: 50px;
+	margin-left: 20px;
 	padding: 25px;
+	border: 1px solid #dddddd;
 }
 
 form {
@@ -98,7 +110,7 @@ form {
 }
 
 form div + div {
-	margin-top: 3em;
+	margin-top: 1em;
 }
 
 label {
@@ -114,13 +126,6 @@ input {
 	width: 400px;
 }
 
-textarea {
-	color: #777777;
-	display: inline-block;
-	margin: 0 auto;
-	width: 400px;
-	height: 150px;
-}
 
 button {
 	background-color: #4aaaa5;
@@ -130,9 +135,52 @@ button {
 	height: 35px;
 	width: 80px;
 	font-size: 15px;
-	margin: 0;            /* Having trouble positioning button */
+	margin: 0;            
+
+}
+
+.portfoliobox {              /* Styles portfolio page */      
+	height: 700px;
+	width: 650px;
+	background: white;
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 25px;
+	border: 1px solid #dddddd;
+}
 
 
+.pics {
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	position: relative;
+
+}
+
+.textbox {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Ariel', 'Helvetica Neue', sans-serif;
+	font-weight: normal;
+	height: 40px;
+	width: 200px;
+	margin-left: 40px;
+	text-align: center;
+	padding-top: 12px;
+	overflow: auto;
+	position: absolute;
+	top: 80px;
+}
+
+.picbox {
+	position: relative;
+	height: 200px;
+	width: 275px;
+	float: left;
 }
 
 .socialmediabox {
@@ -141,10 +189,9 @@ button {
 	background: white;
 	float: right;
 	margin-top: 50px;
-	margin-left: 10px;
+	margin-left: 20px;
 	padding: 25px;
-	/*overflow: auto;
-	clear: both;*/
+	border: 1px solid #dddddd;
 }
 
 h3 {
@@ -166,15 +213,20 @@ h3 {
 	padding: 0;	
 }
 
+.push {
+	clear: both;
+	height: 4em;
+}
+
 footer {
 	background: #666666;
 	height: 70px;
 	border-top: 4px solid #4aaaa5;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	clear: both;
-
+	
 }
 
 #footertext {
