@@ -4,6 +4,7 @@
 
 #container {
 	width: 960px;
+	margin:0 auto;
 }
 
 header {
@@ -51,6 +52,11 @@ ul > li {
 	overflow: auto;
 }
 
+a {
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
 body {
 	background-image: url("../IMAGES/cork-wallet.png")	
 }
@@ -69,13 +75,13 @@ hr {
 	height: 2px;
 }
 
-.AboutMeBox {
+.AboutMeBox {             /* Styles about me box on page 1*/
 	height: 450px;
 	width: 650px;
 	background: white;
 	float: left;
 	margin-top: 50px;
-	margin-left: 20px;
+	margin-left: 10px;
 	padding: 25px;
 	border: 1px solid #dddddd;
 }
@@ -88,18 +94,26 @@ h1 {
 	margin: 0;
 }
 
+.picofme {
+	height: 190px;
+	width: 190px;
+	float: left;
+	margin: 10px;
+}
+
 p {
 	color: #777777;
 	font-family: 'Ariel', 'Helvetica Neue', sans-serif;
+	line-height: 200%;
 }
 
-.contactbox {           /* Styles contact box on page 2 */
+.contactbox {           /* Styles contact box on page 3 */
 	height: 500px;
 	width: 650px;
 	background: white;
 	float: left;
 	margin-top: 50px;
-	margin-left: 20px;
+	margin-left: 10px;
 	padding: 25px;
 	border: 1px solid #dddddd;
 }
@@ -120,10 +134,17 @@ label {
 	text-align: right;
 }
 
+#msg {
+	height: 200px;
+	width: 400px;
+	border: 1px solid #dddddd;
+}
+
 input {
 	color: black;
 	height: 25px;
 	width: 400px;
+	border: 1px solid #dddddd;
 }
 
 
@@ -135,17 +156,20 @@ button {
 	height: 35px;
 	width: 80px;
 	font-size: 15px;
-	margin: 0;            
-
+	margin: 0;           
 }
 
-.portfoliobox {              /* Styles portfolio page */      
+button:hover {
+	background-color: #666666;
+}
+
+.portfoliobox {              /* Styles portfolio box on page 2 */      
 	height: 700px;
 	width: 650px;
 	background: white;
 	float: left;
 	margin-top: 50px;
-	margin-left: 20px;
+	margin-left: 10px;
 	padding: 25px;
 	border: 1px solid #dddddd;
 }
@@ -189,7 +213,7 @@ button {
 	background: white;
 	float: right;
 	margin-top: 50px;
-	margin-left: 20px;
+	margin-left: 30px;
 	padding: 25px;
 	border: 1px solid #dddddd;
 }
